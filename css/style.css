@@ -1,0 +1,79 @@
+/* VARS */
+:root {
+	--rich-black: #111213ff;
+
+	--eerie-black: #212224ff;
+
+	--quick-silver: #a1a1a1ff;
+}
+
+/* RESET */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* MAIN */
+
+body {
+	background-color: var(--rich-black);
+}
+
+.box-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.box {
+	background-color: var(--eerie-black);
+	width: 500px;
+	height: 700px;
+	border-radius: 5px;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	color:  white;
+}
+
+.stick-to-bottom {
+	display: flex;
+	align-items: flex-end;
+	height: 100%;
+}
+
+input[type=button], input[type=submit] {
+  background-color: #854ce0;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  cursor: pointer;
+  width: 150px;
+  border-radius: 5px;
+  box-shadow: 3px 5px #512d8a;
+}
+
+input[type=button]:hover, input[type=submit]:hover {
+	background-color: #9260e0;
+}
