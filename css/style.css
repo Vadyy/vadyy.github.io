@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+
 /* VARS */
 :root {
 	--rich-black: #111213ff;
@@ -36,6 +38,7 @@ img {
 
 body {
 	background-color: var(--rich-black);
+	font-family: 'Roboto', sans-serif;
 }
 
 .box-container {
@@ -53,6 +56,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	color:  white;
+	font-size: 28px;
 }
 
 .stick-to-bottom {
